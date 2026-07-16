@@ -1,3 +1,7 @@
+# Nhost local state and secrets
+.nhost/
+.secrets
+
 # Dependencies
 node_modules/
 .pnpm-store/
@@ -6,6 +10,9 @@ node_modules/
 dist/
 build/
 .vite/
+.vinext/
+.wrangler/
+.next/
 coverage/
 
 # Environment and secrets
@@ -20,4 +27,3 @@ coverage/
 *.log
 *.swp
 *.swo
-

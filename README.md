@@ -61,11 +61,37 @@ Este produto nasce a partir dos aprendizados e do motor de avaliação do projet
 
 ## Estado
 
-Em descoberta e definição do MVP.
+Primeiro protótipo navegável em desenvolvimento:
+
+- Landing page do produto
+- Contexto da arquitetura
+- Health Check demonstrativo
+- Resultado inicial com riscos e recomendações
+- Deploy automático no GitHub Pages
+
+## Desenvolvimento local
+
+```bash
+npm install
+npm run dev
+```
+
+Validação:
+
+```bash
+npm test
+npm run lint
+```
+
+## Publicação
+
+Todo push na branch `main` executa o workflow de GitHub Pages. O endereço
+planejado é:
+
+`https://sergiogbernardo.github.io/sabion-architecture/`
 
 Consulte:
 
 - [Visão do produto](docs/PRODUCT_VISION.md)
 - [Escopo do MVP](docs/MVP.md)
 - [Arquitetura técnica inicial](docs/ARCHITECTURE.md)
-
