@@ -88,7 +88,7 @@ npm run lint
 Todo push na branch `main` executa o workflow de GitHub Pages. O endereço
 planejado é:
 
-`https://sergiogbernardo.github.io/sabion-architecture/`
+`https://sabion.io/sabion-architecture/`
 
 Consulte:
 

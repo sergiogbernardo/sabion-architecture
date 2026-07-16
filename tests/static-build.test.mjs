@@ -12,10 +12,9 @@ test("builds a GitHub Pages-ready static application", async () => {
   assert.match(html, /\/sabion-architecture\/assets\//);
   assert.match(
     html,
-    /https:\/\/sergiogbernardo\.github\.io\/sabion-architecture\/og\.png/,
+    /https:\/\/sabion\.io\/sabion-architecture\/og\.png/,
   );
   assert.doesNotMatch(html, /localhost|codex-preview/i);
 
   await access(new URL("../dist/og.png", import.meta.url));
 });
-
